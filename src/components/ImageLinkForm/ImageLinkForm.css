@@ -1,0 +1,70 @@
+.form {
+  background-color: #ef7d17;
+  background-image: linear-gradient(
+      30deg,
+      #d77f32 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #d77f32 87.5%,
+      #d77f32
+    ),
+    linear-gradient(
+      150deg,
+      #d77f32 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #d77f32 87.5%,
+      #d77f32
+    ),
+    linear-gradient(
+      30deg,
+      #d77f32 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #d77f32 87.5%,
+      #d77f32
+    ),
+    linear-gradient(
+      150deg,
+      #d77f32 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #d77f32 87.5%,
+      #d77f32
+    ),
+    linear-gradient(
+      60deg,
+      #e2a167 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #e2a167 75%,
+      #e2a167
+    ),
+    linear-gradient(
+      60deg,
+      #e2a167 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #e2a167 75%,
+      #e2a167
+    );
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
+@media screen and (max-width: 660px) {
+  .detect-button {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .detect-button {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 20vw;
+    height: 3em;
+    white-space: nowrap;
+  }
+}
